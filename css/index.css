@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.game-result {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.letter {
+  text-align: center;
+}
+
+.board {
+  margin-bottom: 50px;
+}
+
+.board__row {
+  display: flex;
+  margin-bottom: 5px;
+  justify-content: center;
+}
+
+.board__row-tile {
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  margin-right: 5px;
+  border-radius: 10px;
+}
+
+.keyboard__row {
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.center {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.keyboard__key {
+  font-size: 18px;
+  padding: 8px;
+}
