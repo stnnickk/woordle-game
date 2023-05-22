@@ -10,8 +10,6 @@ export class Enter {
   click() {
     if (window.game.letterCounter === 4) {
       window.game.compareWords();
-    } else {
-      alert("Bad");
     }
   }
 }
